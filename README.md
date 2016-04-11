@@ -3,11 +3,17 @@ jquery plugin to replace html tags with or without classes or attributes
 
 **usage:**
 
-_keep existing classes and attributes_
+
+_**keep existing classes and attributes**_
+
 $('.tagsToChange').replaceTag('<span>', true); 
 
-_don't keep existing classes and attributes_
+
+_**don't keep existing classes and attributes**_
+
 $('#tagToChange').replaceTag('<span>', false);
 
-_replace all divs with spans, copy classes and attributes, add extra classname._
+
+_**replace all divs with spans, copy classes and attributes, add extra classname**_
+
 $('div').replaceTag($('<span>').addClass('wasDiv'), true);
